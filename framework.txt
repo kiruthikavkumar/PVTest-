@@ -1,0 +1,76 @@
+What is framework ? (Backbone of Automation)
+
+Time-Saving
+Avoid confusion
+Reusability
+
+Guideliness:
+coding Standards - naming convention, Indent spacing
+Excel - Input and output
+Folder Structure
+Test results
+Role and responsibilities
+
+
+Selenium with Java - TestNG, Behaviour driven development, JUnit
+Selenium with C# - NUnit, Datadriven framework, Modular driven, Hybrid
+
+Modular Framework : (Code + Data)
+
+Advantages:
+Code Reusability
+
+insert Order - Login , insert, logout 
+Update order - Login , search, update, logout
+Delete Order - Login , search, delete, logout
+
+Login, Logout, Search
+
+Folder-Structure:
+project_Modular_framework -> test Scripts
+project_Modular_framework -> Function Library
+project_Modular_framework -> Tests results
+
+
+Adv
+1) reusability
+2) script maintenance
+
+Disadv
+1) Analyze - Code reusability 
+2) technical Expertize
+3) Data Reusability - Test Input
+
+
+Datadriven :
+Code -> Separate
+Data -> Separate
+
+M1 -> Datables
+M2 -> Excel 
+M3 -> Generating a sheet
+
+
+project_datadriven_framework -> test Scripts
+project_datadriven_framework -> Function Library
+project_datadriven_framework -> Tests results
+project_datadriven_framework -> Test Data
+
+Scenario 1: Login to gmail and open first mail  - 3 
+Scenario 2: Login to Yahoo and open the subject as in the Excel  - 4
+Scenario 3: Login to Facebook and open a friend's wall. Friend's name is mentioned in the Excel - 7
+
+Columname : url, username, password, EmailSubject, Friend's Name
+
+Without Iterations - All are in the same Worksheet
+With Iterations - ALl should be in different Sheets
+
+
+Hybrid Framework:
+
+Combining more than one framework
+
+NUnit
+------
+It is a unit testing framework
+[Test]
