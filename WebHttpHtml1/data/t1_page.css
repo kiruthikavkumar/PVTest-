@@ -1,0 +1,46 @@
+.page-content {
+  padding-top: 30px;
+}
+
+.page-content .nzrb-page-header > h1 {
+  text-align: left;
+}
+
+.content-divider {
+  height: 4px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 30px 0;
+}
+
+.content-excerpt h3 {
+  font-weight: normal;
+  font-family: 'rotissansserifbold';
+  padding-bottom: 0px;
+  padding-top: 10px;
+  color: #a2a2a2!important;
+  font-size: 20px!important;
+  text-decoration: none;
+  text-shadow: 1px 1px #EEEEEE!important;
+  margin: 0!important;
+}
+
+.post-content p {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.post-content td > p {
+  margin-bottom: 0 !important;
+}
+
+.content-excerpt p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.node-article .content {
+  line-height: 20px;
+}

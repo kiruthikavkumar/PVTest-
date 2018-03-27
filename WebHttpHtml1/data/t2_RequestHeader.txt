@@ -1,0 +1,9 @@
+GET /connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: https://nzracingboard.co.nz/
+Accept-Language: en-NZ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: staticxx.facebook.com
+Connection: Keep-Alive
+

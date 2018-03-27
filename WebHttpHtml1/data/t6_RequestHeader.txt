@@ -1,0 +1,11 @@
+POST /i/jot HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: en-NZ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: syndication.twitter.com
+Content-Length: 2529
+Connection: Keep-Alive
+Cache-Control: no-cache
+

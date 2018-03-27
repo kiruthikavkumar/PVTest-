@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.html
+URL1=https://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42
+Total=3
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2.gif
+URL2=https://www.facebook.com/impression.php/f17d4e74b077d75/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D
+FileName3=t2_widgets.html
+URL3=https://platform.twitter.com/widgets.js
+[ProtocolInfo]
+ProtocolId=QTWeb

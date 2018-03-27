@@ -1,0 +1,108 @@
+/*
+ * Copyright (c) New Zealand Racing Board 2015.  All rights reserved
+ *
+ * $URL$
+ * $LastChangedRevision$
+ * $LastChangedBy$
+ * $LastChangedDate$
+ *
+ * Author: David Jefferies
+ *
+ * Description: Stylesheet for the nzracingboard.co.nz Carousel
+ */
+ 
+#slide1_container {
+  width:1426px;
+  height:475px;
+  overflow:hidden; /* So the sliding bit doesn't stick out. */
+  margin:0 auto;
+  position: relative;
+}
+
+#carousel-list {
+  overflow: hidden;
+}
+
+#carousel-list li {
+  overflow: hidden;
+  display: inline;
+  float: left;
+  padding: 0;
+  width: 1426px;
+}
+
+#carousel-list img {
+  padding:0;
+  margin:0;
+  float:left; /* All the images are in a row next to each other. */
+  width: 1426px;
+}
+
+#carousel-left {
+  z-index: 100;
+  cursor: pointer;
+  background: url(small_left.png) no-Repeat top left;
+  margin-right: 0px;
+  float: left;
+  margin-top: -7px;
+  background-image: url(ls_prev@2x.png);
+  background-size: 12px 24px;
+  background-position: 19px 19px;
+  left: 0;
+  background-color: #bd9e5c;
+  width: 63px;
+  height: 63px;
+  top: 42%;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  opacity: 0.8 !important;
+  display: none;
+}
+
+#carousel-right {
+  z-index: 100;
+  cursor: pointer;
+  background: url(small_right.png) no-Repeat top right;
+  margin-left: 0px;
+  float: right;
+  margin-top: -7px;
+  background-image: url(ls_next@2x.png);
+  background-size: 12px 24px;
+  background-position: 29px 19px;
+  right: 0;
+  background-color: #bd9e5c;
+  width: 63px;
+  height: 63px;
+  top: 42%;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  opacity: 0.8 !important;
+  display: none;
+}
+
+#carousel-readmore img {
+  width: 90.4219px;
+  height: 32.0781px;
+  z-index: 200;
+  position: absolute;
+  float: left;
+}
+			
+.image-preview {
+  height: 475px !important;
+  padding: 0 !important;
+}

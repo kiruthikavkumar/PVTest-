@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Type: text/html
+Content-Encoding: gzip
+Last-Modified: Tue, 21 Nov 2017 00:06:02 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=10886400; includeSubDomains; preload
+Date: Fri, 23 Mar 2018 00:05:34 GMT
+Content-Length: 1566
+

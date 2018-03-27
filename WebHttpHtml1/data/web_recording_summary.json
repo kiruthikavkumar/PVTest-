@@ -1,0 +1,1068 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "ua-cpu",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.ms-fontobject"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 18,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Mar-23-2018",
+    "RecordingDuration": 223765,
+    "RecordingTimeStamp": 1521763448,
+    "TotalBytesReceived": 1679646,
+    "TotalBytesSent": 36454,
+    "TotalRequests": 80
+  },
+  "HostInfo": [
+    {
+      "DomainName": "www.catalyst-analytics.nz",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "103.254.157.14",
+          "IncludeInScript": true,
+          "Name": "www.catalyst-analytics.nz",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 1796,
+              "EventId": 490,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.catalyst-analytics.nz/piwik.php?link=https%3A%2F%2Fwww.tab.co.nz%2Fsport&idsite=319&rec=1&r=776444&h=13&m=5&s=14&url=https%3A%2F%2Fnzracingboard.co.nz%2F&_id=b0164ede4e3c4e6b&_idts=1521763473&_idvc=1&_idn=0&_refts=0&_viewts=1521763473&send_image=1&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1280x720&gt_ms=166"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 109,
+              "EventId": 314,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.catalyst-analytics.nz/piwik.php?action_name=Welcome%20to%20New%20Zealand%20Racing%20Board%20%7C%20New%20Zealand%20Racing%20Board&idsite=319&rec=1&r=973079&h=13&m=4&s=33&url=https%3A%2F%2Fnzracingboard.co.nz%2F&_id=b0164ede4e3c4e6b&_idts=1521763473&_idvc=1&_idn=0&_refts=0&_viewts=1521763473&send_image=1&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1280x720&gt_ms=166"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 63,
+              "EventId": 307,
+              "HttpStatus": 200,
+              "Size": 58073,
+              "URL": "https://www.catalyst-analytics.nz/piwik.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "twitter.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.244.42.72",
+          "IncludeInScript": true,
+          "Name": "syndication.twitter.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 440,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://syndication.twitter.com/i/jot"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 203,
+              "EventId": 438,
+              "HttpStatus": 200,
+              "Size": 92,
+              "URL": "https://syndication.twitter.com/settings"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "199.96.57.6",
+          "IncludeInScript": true,
+          "Name": "platform.twitter.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 442,
+              "HttpStatus": 200,
+              "Size": 95,
+              "URL": "https://platform.twitter.com/jot.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 381,
+              "HttpStatus": 200,
+              "Size": 6637,
+              "URL": "https://platform.twitter.com/widgets/widget_iframe.f47a2e0b4471326b6fa0f163bda46011.html?origin=https%3A%2F%2Fnzracingboard.co.nz"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 374,
+              "HttpStatus": 200,
+              "Size": 36094,
+              "URL": "https://platform.twitter.com/widgets.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "nzracingboard.co.nz",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.16.41.94",
+          "IncludeInScript": true,
+          "Name": "www.nzracingboard.co.nz",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 363,
+              "HttpStatus": 301,
+              "Size": 0,
+              "URL": "http://www.nzracingboard.co.nz/wp-content/uploads/2014/07/FIFA-World-Cup-Earnings.png"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.16.42.94",
+          "IncludeInScript": true,
+          "Name": "nzracingboard.co.nz",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/x-icon",
+              "DownloadTime": 47,
+              "EventId": 384,
+              "HttpStatus": 200,
+              "Size": 3549,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/Document%20Blank-01.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 365,
+              "HttpStatus": 404,
+              "Size": 132,
+              "URL": "https://nzracingboard.co.nz/wp-content/uploads/2014/07/FIFA-World-Cup-Earnings.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 296,
+              "HttpStatus": 200,
+              "Size": 1100,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/images/facebook@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 294,
+              "HttpStatus": 200,
+              "Size": 1096,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/images/bg-title.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 292,
+              "HttpStatus": 200,
+              "Size": 1208,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/images/twitter@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 290,
+              "HttpStatus": 200,
+              "Size": 1128,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/images/arrow-more-orange.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 288,
+              "HttpStatus": 200,
+              "Size": 6697,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/images/logo-footer_13.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 284,
+              "HttpStatus": 200,
+              "Size": 106,
+              "URL": "https://nzracingboard.co.nz/misc/menu-expanded.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 282,
+              "HttpStatus": 200,
+              "Size": 3044,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/custom/carousel/ls_next@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 280,
+              "HttpStatus": 200,
+              "Size": 3019,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/custom/carousel/ls_prev@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 278,
+              "HttpStatus": 200,
+              "Size": 1195,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/images/subnav_sep.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 276,
+              "HttpStatus": 200,
+              "Size": 105,
+              "URL": "https://nzracingboard.co.nz/misc/menu-collapsed.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 274,
+              "HttpStatus": 200,
+              "Size": 126,
+              "URL": "https://nzracingboard.co.nz/misc/menu-leaf.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 156,
+              "EventId": 267,
+              "HttpStatus": 200,
+              "Size": 17547,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/fonts/rotis_sans_serif/rotis_sans_serif_bold_65.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 79,
+              "EventId": 203,
+              "HttpStatus": 200,
+              "Size": 63795,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/styles/medium/public/field/image/Screenshot%202018-03-08%20at%2016.14.01.png?itok=rg7wN3K-"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 196,
+              "HttpStatus": 200,
+              "Size": 37815,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/NZRB1639_CEO_Roadshow_Invite_2017_Email_Image.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 186,
+              "HttpStatus": 200,
+              "Size": 3928,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/styles/medium/public/field/image/DEFAULT%20-%20USE%20THIS%20IF%20UNSURE%20-%20NZRB_on_white_cmyk.jpg?itok=lr7uk9Gn"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 158,
+              "HttpStatus": 200,
+              "Size": 8923,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/styles/medium/public/field/image/IMG_0568.JPG?itok=AvuOrewI"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 137,
+              "HttpStatus": 200,
+              "Size": 50074,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/TAB_Trackside_Blue.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 79,
+              "EventId": 134,
+              "HttpStatus": 200,
+              "Size": 25200,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/NZRB-Logo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 129,
+              "HttpStatus": 200,
+              "Size": 243772,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/Working_With_Usv2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 126,
+              "HttpStatus": 200,
+              "Size": 4323,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/custom/carousel/readmore.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 123,
+              "HttpStatus": 200,
+              "Size": 210727,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/Annual_Reports.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 118,
+              "HttpStatus": 200,
+              "Size": 195424,
+              "URL": "https://nzracingboard.co.nz/sites/default/files/About_Us.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 125,
+              "EventId": 113,
+              "HttpStatus": 200,
+              "Size": 1770,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/contrib/google_analytics/googleanalytics.js?odvpw3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 6523,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/logo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 105,
+              "HttpStatus": 200,
+              "Size": 13886,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/scripts/fancybox/source/jquery.fancybox.js?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 1414,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/scripts/theme.js?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 101,
+              "HttpStatus": 200,
+              "Size": 504,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/contrib/piwik/piwik.js?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 93,
+              "HttpStatus": 200,
+              "Size": 1236,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/custom/carousel/carousel.js?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 1058,
+              "URL": "https://nzracingboard.co.nz/misc/jquery.once.js?v=1.2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 88,
+              "HttpStatus": 200,
+              "Size": 5714,
+              "URL": "https://nzracingboard.co.nz/misc/drupal.js?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 82,
+              "HttpStatus": 200,
+              "Size": 32844,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 78,
+              "HttpStatus": 200,
+              "Size": 1423,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/scripts/fancybox/source/jquery.fancybox.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 76,
+              "HttpStatus": 200,
+              "Size": 1502,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/styles/block.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 338,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/styles/page.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 71,
+              "HttpStatus": 200,
+              "Size": 2878,
+              "URL": "https://nzracingboard.co.nz/sites/all/themes/NZRB_Corp/styles/theme.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 69,
+              "HttpStatus": 200,
+              "Size": 254,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/contrib/ctools/css/ctools.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 67,
+              "HttpStatus": 200,
+              "Size": 307,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/contrib/views/css/views.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 185,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/contrib/ckeditor/css/ckeditor.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 61,
+              "HttpStatus": 200,
+              "Size": 694,
+              "URL": "https://nzracingboard.co.nz/modules/user/user.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 59,
+              "HttpStatus": 200,
+              "Size": 232,
+              "URL": "https://nzracingboard.co.nz/modules/search/search.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 109,
+              "URL": "https://nzracingboard.co.nz/modules/node/node.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 53,
+              "HttpStatus": 200,
+              "Size": 235,
+              "URL": "https://nzracingboard.co.nz/modules/field/theme/field.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 50,
+              "HttpStatus": 200,
+              "Size": 456,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/custom/document_library/document_library.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 46,
+              "HttpStatus": 200,
+              "Size": 142,
+              "URL": "https://nzracingboard.co.nz/modules/comment/comment.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 789,
+              "URL": "https://nzracingboard.co.nz/sites/all/modules/custom/carousel/carousel.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 41,
+              "HttpStatus": 200,
+              "Size": 1219,
+              "URL": "https://nzracingboard.co.nz/modules/system/system.theme.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 383,
+              "URL": "https://nzracingboard.co.nz/modules/system/system.messages.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 661,
+              "URL": "https://nzracingboard.co.nz/modules/system/system.menus.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 30,
+              "HttpStatus": 200,
+              "Size": 1861,
+              "URL": "https://nzracingboard.co.nz/modules/system/system.base.css?odvpw3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 22,
+              "HttpStatus": 200,
+              "Size": 5867,
+              "URL": "https://nzracingboard.co.nz/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "204.79.197.200",
+          "IncludeInScript": true,
+          "Name": "ieonline.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 529,
+              "HttpStatus": 200,
+              "Size": 1566,
+              "URL": "https://ieonline.microsoft.com/s/iess/instrument17.cer"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/xml",
+              "DownloadTime": 907,
+              "EventId": 508,
+              "HttpStatus": 200,
+              "Size": 160809,
+              "URL": "https://ieonline.microsoft.com/ieflipahead/ie10/rules.xml?mkt=en-NZ"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 329,
+              "EventId": 505,
+              "HttpStatus": 200,
+              "Size": 18176,
+              "URL": "https://ieonline.microsoft.com/iedomainsuggestions/ie11/suggestions.en-NZ"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "117.18.232.200",
+          "IncludeInScript": true,
+          "Name": "iecvlist.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 47,
+              "EventId": 483,
+              "HttpStatus": 200,
+              "Size": 15845,
+              "URL": "https://iecvlist.microsoft.com/ie11blocklist/1401746408/versionlist.xml"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 32,
+              "EventId": 463,
+              "HttpStatus": 200,
+              "Size": 15845,
+              "URL": "https://iecvlist.microsoft.com/ie11blocklist/1401746408/versionlist.xml"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.113.201.24",
+          "IncludeInScript": true,
+          "Name": "go.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 203,
+              "EventId": 525,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://go.microsoft.com/fwlink/?LinkID=401135"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.162.240.87",
+          "IncludeInScript": true,
+          "Name": "c.urs.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 391,
+              "EventId": 466,
+              "HttpStatus": 200,
+              "Size": 141457,
+              "URL": "https://c.urs.microsoft.com/l1.dat?v=3&cv=9.11.16299.0&os=10.0.16299.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.199.46",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 486,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j66&a=892789403&t=event&_s=2&dl=https%3A%2F%2Fnzracingboard.co.nz%2F&ul=en-nz&de=utf-8&dt=Welcome%20to%20New%20Zealand%20Racing%20Board%20%7C%20New%20Zealand%20Racing%20Board&sd=24-bit&sr=1280x720&vp=768x369&je=1&fl=29.0%20r0&ec=Outbound%20links&ea=Click&el=https%3A%2F%2Fwww.tab.co.nz%2Fsport&_u=KGBAgEQ~&jid=&gjid=&cid=1662528289.1521763473&tid=UA-4471892-2&_gid=158732387.1521763473&z=466561167"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 305,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j66&a=892789403&t=pageview&_s=1&dl=https%3A%2F%2Fnzracingboard.co.nz%2F&ul=en-nz&de=utf-8&dt=Welcome%20to%20New%20Zealand%20Racing%20Board%20%7C%20New%20Zealand%20Racing%20Board&sd=24-bit&sr=1280x720&vp=768x369&je=1&fl=29.0%20r0&_u=IGBAgEQ~&jid=1647052735&gjid=1448683085&cid=1662528289.1521763473&tid=UA-4471892-2&_gid=158732387.1521763473&z=1580952037"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 298,
+              "HttpStatus": 200,
+              "Size": 14597,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "fbcdn.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "157.240.8.23",
+          "IncludeInScript": true,
+          "Name": "static.xx.fbcdn.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 417,
+              "HttpStatus": 200,
+              "Size": 222,
+              "URL": "https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/lH1ibRl5GKq.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 395,
+              "HttpStatus": 200,
+              "Size": 144706,
+              "URL": "https://static.xx.fbcdn.net/rsrc.php/v3ijLc4/yz/l/en_US/ZXD9WV2Kqal.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "157.240.8.23",
+          "IncludeInScript": true,
+          "Name": "connect.facebook.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 326,
+              "HttpStatus": 200,
+              "Size": 67283,
+              "URL": "https://connect.facebook.net/en_US/sdk.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "157.240.8.35",
+          "IncludeInScript": true,
+          "Name": "www.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 386,
+              "HttpStatus": 200,
+              "Size": 14631,
+              "URL": "https://www.facebook.com/v2.5/plugins/like.php?action=like&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FMs1VZf1Vg1J.js%3Fversion%3D42%23cb%3Df157f8d65f449de%26domain%3Dnzracingboard.co.nz%26origin%3Dhttps%253A%252F%252Fnzracingboard.co.nz%252Ff1a8657a6524e1e%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fnzracingboard.co.nz%2F&layout=button_count&locale=en_US&sdk=joey&share=false&show_faces=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 357,
+              "HttpStatus": 200,
+              "Size": 57,
+              "URL": "https://www.facebook.com/impression.php/f17d4e74b077d75/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "157.240.8.23",
+          "IncludeInScript": true,
+          "Name": "staticxx.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 352,
+              "HttpStatus": 200,
+              "Size": 14279,
+              "URL": "https://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "74.125.204.154",
+          "IncludeInScript": true,
+          "Name": "stats.g.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 334,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j66&tid=UA-4471892-2&cid=1662528289.1521763473&jid=1647052735&gjid=1448683085&_gid=158732387.1521763473&_u=IGBAgEQ~&z=561724834"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.21.200",
+          "IncludeInScript": true,
+          "Name": "www.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 47,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 237,
+              "URL": "https://www.bing.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 32,
+              "EventId": 448,
+              "HttpStatus": 200,
+              "Size": 237,
+              "URL": "https://www.bing.com/favicon.ico"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": false
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

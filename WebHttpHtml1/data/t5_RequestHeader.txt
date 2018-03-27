@@ -1,0 +1,10 @@
+GET /settings HTTP/1.1
+Accept: */*
+Referer: https://platform.twitter.com/widgets/widget_iframe.f47a2e0b4471326b6fa0f163bda46011.html?origin=https%3A%2F%2Fnzracingboard.co.nz
+Accept-Language: en-NZ
+Origin: https://platform.twitter.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Host: syndication.twitter.com
+Connection: Keep-Alive
+

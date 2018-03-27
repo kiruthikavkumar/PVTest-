@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Last-Modified: Tue, 13 Mar 2018 20:15:27 GMT
+Cache-Control: public, max-age=315360000
+Content-Type: text/html; charset=utf-8
+Etag: "a29d8718243e9cb04d88c86eb0afc516+gzip"
+Content-Encoding: gzip
+Content-Length: 6637
+Accept-Ranges: bytes
+Date: Fri, 23 Mar 2018 00:04:39 GMT
+Via: 1.1 varnish
+Age: 790677
+Connection: keep-alive
+X-Served-By: cache-tw-syd1-10-TWSYD1
+X-Cache: HIT
+X-Timer: S1521763480.604148,VS0,VE0
+Vary: Accept-Encoding,Host
+P3P: CP="CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT"
+

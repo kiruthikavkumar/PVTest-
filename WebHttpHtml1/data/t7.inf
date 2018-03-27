@@ -1,0 +1,13 @@
+[t7]
+FileName1=t7_versionlist.xml
+URL1=https://iecvlist.microsoft.com/ie11blocklist/1401746408/versionlist.xml
+Total=2
+ContentType=text/xml
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7_l1.html
+URL2=https://c.urs.microsoft.com/l1.dat?v=3&cv=9.11.16299.0&os=10.0.16299.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+GET /widgets/widget_iframe.f47a2e0b4471326b6fa0f163bda46011.html?origin=https%3A%2F%2Fnzracingboard.co.nz HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: https://nzracingboard.co.nz/
+Accept-Language: en-NZ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: platform.twitter.com
+Connection: Keep-Alive
+

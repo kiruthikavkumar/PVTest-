@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.html
+URL1=https://platform.twitter.com/widgets/widget_iframe.f47a2e0b4471326b6fa0f163bda46011.html?origin=https%3A%2F%2Fnzracingboard.co.nz
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_Document%20Blank-01.ico
+URL2=https://nzracingboard.co.nz/sites/default/files/Document%20Blank-01.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

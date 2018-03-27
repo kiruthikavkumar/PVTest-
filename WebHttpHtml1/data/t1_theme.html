@@ -1,0 +1,109 @@
+var lightboxDisplaying = false;
+jQuery(document).ready(function() {
+  var self = this;
+  
+  jQuery('#block-views-latest-news-block > h2, .page-news .content-divider').replaceWith('<div class="title"><h2>Latest News</h2></div>');
+  jQuery('#block-views-tags-cloud-block > h2').replaceWith('<div class="title"><h2>Tags</h2></div>');
+  
+  jQuery('#main-menu li').removeClass('expanded');
+  
+  jQuery('h1').each(function(index, value) {
+    jQuery(this).attr('title', jQuery(this).text());
+  });
+  
+  var menu = jQuery('div.content > ul.menu').clone();
+  jQuery('<select class="mobile-menu" style="display: none;"><option selected="selected">Go to...</option></select>').insertAfter('div.content > ul.menu');
+  jQuery(menu).find('li > a').each(function() {
+    jQuery(this).find('ul').remove();
+    var text = jQuery(this).text(),
+        depth = jQuery(this).parent().parents('ul').length,
+        depthChar = '',
+        i = 1;
+    for (i; i < depth; i++) { depthChar += '&ndash;&nbsp;'; }
+    jQuery('select.mobile-menu').append('<option value="' + (typeof jQuery(this).attr('href') == 'undefined' ? '' : jQuery(this).attr('href')) + '">' + depthChar + text + '</option>');
+  });
+  menu.appendTo('select.mobile-menu');
+  
+  jQuery('select.mobile-menu').unbind('change').change(function() {
+    if (jQuery(this).val() != '')
+      window.location = jQuery(this).val();
+  });
+  
+  jQuery('div.content > ul.menu > li').unbind('mouseenter').mouseenter(function() {
+    jQuery(this).parent().find('> li').removeClass('expanded');
+    jQuery(this).addClass('expanded');
+  });
+  
+  jQuery('div.content > ul.menu > li').unbind('mouseleave').mouseleave(function() {
+    jQuery(this).removeClass('expanded');
+  });
+  
+  jQuery('div.content > ul.menu > li > ul.menu > li').unbind('mouseenter').mouseenter(function() {
+    jQuery(this).parent().find('> li').removeClass('expanded');
+    if (jQuery(this).find('ul').length == 0) return;
+    jQuery(this).addClass('expanded');
+  });
+  
+  jQuery('div.content > ul.menu > li > ul.menu > li').unbind('mouseleave').mouseleave(function() {
+    jQuery(this).removeClass('expanded');
+  });
+  
+  jQuery('.latest-news-tags-over').remove();
+  jQuery('.latest-news-tags tr > td:first-child').prepend('<div class="latest-news-tags-over" style="opacity: 0.0"><div class="overlay-content"><a class="link-icon icon"><div></div></a><a class="gallery-icon icon"><div></div></a><div class="overlay-text"></div></div></div>');
+  jQuery('.latest-news-tags tr > td:first-child').unbind('mouseenter').mouseenter(function() {
+    jQuery(this).find('.overlay-container').css('width', jQuery(this).find('img').width() + 'px');
+    jQuery(this).find('.overlay-container').css('height', jQuery(this).find('img').height() + 'px');
+    jQuery(this).find('.overlay-text').text(jQuery(this).parent().find('.views-field-title').text());
+    jQuery(this).find('.link-icon').attr('href', jQuery(this).parent().find('.views-field-title a').attr('href'));
+    jQuery(this).find('.gallery-icon').attr('href', jQuery(this).find('img').attr('src'));
+    jQuery(this).find('.latest-news-tags-over').css('height', jQuery(this).find('img').height() + 'px').animate({width: jQuery(this).find('img').width() + 'px', opacity: '1.0'});
+  });
+  jQuery('.latest-news-tags tr > td:first-child').unbind('mouseleave').mouseleave(function() {
+    jQuery(this).find('.latest-news-tags-over').animate({width: '0px', opacity: '0.0'});
+  });
+  jQuery('.latest-news-tags-over .gallery-icon').unbind('click').click(function() {
+    lightboxDisplaying = true;
+    jQuery('#lightbox-overlay #lightbox-image').attr('src', jQuery(this).attr('href'));
+    jQuery('#lightbox-overlay .fb-like').attr('data-href', location.origin + jQuery(this).parent().find('.link-icon').attr('href'));
+    FB.XFBML.parse();
+    jQuery('#lightbox-overlay #lightbox-footer .twitter-like').empty();
+    jQuery('#lightbox-overlay #lightbox-footer .twitter-like').append('<a href="https://twitter.com/share" class="twitter-share-button" data-url="' + location.origin + jQuery(this).parent().find('.link-icon').attr('href') + '">Tweet</a>');
+    twttr.widgets.load();
+    jQuery('#lightbox-overlay').show();
+    return false;
+  });
+  jQuery('#lightbox-close').unbind('click').click(function() {
+    jQuery('#lightbox-overlay').hide();
+  });
+  
+  if (jQuery('div.breadcrumbs a:last-child').text().toLowerCase() == 'node') {
+    jQuery('div.breadcrumbs').hide();
+  } else {
+    jQuery('div.breadcrumbs').show();
+  }
+});
+
+jQuery(window).load(function() {
+  windowResize_theme();
+});
+
+jQuery(window).resize(function() {
+  windowResize_theme();
+});
+
+function windowResize_theme() {
+  if (jQuery('div.content > ul.menu').height() > 50) {
+    jQuery('div.content > ul.menu').hide();
+    jQuery('div.content > select.mobile-menu').show();
+  } else {
+    jQuery('div.content > ul.menu').show();
+    jQuery('div.content > select.mobile-menu').hide();
+  }
+  
+  if (jQuery(window).width() > 680) {
+    jQuery('#text-widget').css('width', (jQuery('#footer-links').offset().left - jQuery('#text-widget').offset().left) + 'px');
+  }
+  
+  var diff = jQuery('.nzrb-page-header .title').offset().top - jQuery('.three-fourth').offset().top;
+  jQuery('#sidebar-right').css('padding-top', diff + 'px');
+}

@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.html
+URL1=https://www.facebook.com/v2.5/plugins/like.php?action=like&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FMs1VZf1Vg1J.js%3Fversion%3D42%23cb%3Df157f8d65f449de%26domain%3Dnzracingboard.co.nz%26origin%3Dhttps%253A%252F%252Fnzracingboard.co.nz%252Ff1a8657a6524e1e%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fnzracingboard.co.nz%2F&layout=button_count&locale=en_US&sdk=joey&share=false&show_faces=true
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_ZXD9WV2Kqal.html
+URL2=https://static.xx.fbcdn.net/rsrc.php/v3ijLc4/yz/l/en_US/ZXD9WV2Kqal.js
+FileName3=t4_lH1ibRl5GKq.png
+URL3=https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/lH1ibRl5GKq.png
+[ProtocolInfo]
+ProtocolId=QTWeb

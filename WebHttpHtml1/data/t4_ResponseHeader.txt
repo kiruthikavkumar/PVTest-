@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+timing-allow-origin: *
+X-XSS-Protection: 0
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Strict-Transport-Security: max-age=15552000; preload
+X-Content-Type-Options: nosniff
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+facebook-api-version: v2.5
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+X-FB-Debug: kRDLUPJ+quXFhu+BAKP/WdFav/+uy4GgrlEeWtBtK/bJX6uyP+rBtEMZCFRnFqB7zLLEM6Itr97PVGqoLwwHsw==
+Date: Fri, 23 Mar 2018 00:04:40 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+

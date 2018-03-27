@@ -1,0 +1,49 @@
+/*
+ * Copyright (c) New Zealand Racing Board 2015.  All rights reserved
+ *
+ * $URL$
+ * $LastChangedRevision$
+ * $LastChangedBy$
+ * $LastChangedDate$
+ *
+ * Author: David Jefferies
+ *
+ * Description: Stylesheet for the nzracingboard.co.nz Document Library
+ */
+ 
+.document {
+  display: inline-block;
+  text-align: center;
+  width: 230px;
+  vertical-align: top;
+  margin: 20px 0 40px;
+}
+
+.document p {
+  line-height: 16px!important;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.document a {
+  color: #BF9F58 !important;
+  font-size: 15px;
+}
+
+.document h2 {
+  line-height: 48px !important;
+  font-size: 23px !important;
+}
+
+.document .more {
+  text-align: center;
+  display: block;
+}
+
+.document .more a {
+  background: url("arrow-more.gif") no-repeat scroll 100% 50% transparent;
+  padding: 0 14px 0 0;
+  text-align: center;
+}

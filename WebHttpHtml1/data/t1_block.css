@@ -1,0 +1,273 @@
+.home-content, .content-footer {
+  text-align: center;
+}
+
+.home-content .col {
+  vertical-align: top;
+}
+
+.home-content .col, .content-footer li {
+  width: 290px;
+  display: inline-block;
+}
+
+.home-content .col:not(:last-child), .content-footer li {
+  padding-right: 20px;
+}
+
+.home-content a {
+  color: #BF9F58;
+  padding: 0 14px 0 0;
+  background: url(../images/arrow-more-orange.gif) no-repeat 100% 63%;
+  font-family: 'rotissansserifbold',Arial,sans-serif;
+  font-size: 15px;
+}
+
+.home-content h3 {
+  text-align: center!important;
+}
+
+.home-content h3 {
+  color: #a2a2a2!important;
+  font-size: 20px!important;
+  text-decoration: none;
+  text-shadow: 1px 1px #EEEEEE!important;
+  margin: 0!important;
+  padding-bottom: 20px;
+}
+
+.home-content p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.col p {
+  text-align: left !important;
+}
+
+.home-content .heading h2 {
+  margin: 0;
+  line-height: 48px !important;
+  clear: both;
+  font-family: 'rotissansserifbold'!important;
+  font-size: 23px !important;
+  padding: 0 10px;
+  color: #949392!important;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-footer {
+  margin-bottom: 25px;
+}
+
+.content-footer li {
+  padding-bottom: 20px;
+}
+
+.content-footer > div.title {
+  margin: 0 0 40px;
+  overflow: hidden;
+  background: url(../images/bg-title.gif) repeat-x 0 50%;
+  text-align: left;
+}
+
+.content-footer > div h2 {
+  color: #333333;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 0 8px 0 0 !important;
+  margin: 0 !important;
+  background: #fff;
+  display: inline-block;
+}
+
+.nzrb-page-header .title {
+  margin-top: 30px !important;
+}
+
+#block-views-latest-news-block .title, .nzrb-page-header .title, #block-views-tags-cloud-block .title {
+  margin: 0 0 40px;
+  overflow: hidden;
+  background: url(../images/bg-title.gif) repeat-x 0 50%;
+}
+
+#block-views-latest-news-block .title h2, .nzrb-page-header .title h2, #block-views-tags-cloud-block .title h2 {
+  font-size: 18px !important;
+  line-height: 27px !important;
+  float: left;
+  padding: 0 8px 0 0 !important;
+  margin: 0 !important;
+  background: #fff;
+  color: black;
+}
+
+#block-views-latest-news-block tbody, .page-news .view-latest-news tbody {
+  border: 0px;
+}
+
+#block-views-latest-news-block tr, .page-news .view-latest-news tr, .latest-news-tags tr {
+  background-color: white;
+  border: 0px;
+  border-color: white;
+  border-bottom: 20px solid white !important;
+}
+
+#block-views-latest-news-block tr > td:not(:first-child), .page-news .view-latest-news tr > td:not(:first-child) {
+  display: block;
+}
+
+#block-views-latest-news-block tr > td:first-child, .page-news .view-latest-news tr > td:first-child {
+  width: 203px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#block-views-latest-news-block img, .page-news .view-latest-news img {
+  width: 203px;
+  float: left;
+}
+
+#block-views-latest-news-block td.views-field-title a, .page-news .view-latest-news td.views-field-title a {
+  font-family: 'rotissansserifbold';
+  font-size: 18px!important;
+  font-weight: normal;
+  color: #a2a2a2 !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left!important;
+  display: block;
+  letter-spacing: -0.5px!important;
+  line-height: 24px !important;
+}
+
+#block-views-latest-news-block .views-field-created, .page-news .view-latest-news .views-field-created {
+  line-height: 21px!important;
+}
+
+#block-views-latest-news-block .views-field-view-node, .page-news .view-latest-news .views-field-view-node {
+  border-top: 15px solid white;
+}
+
+#block-views-latest-news-block .views-field-view-node a, .page-news .view-latest-news .views-field-view-node a {
+  background: url(../images/arrow-more-orange.gif) no-repeat 100% 60%;
+  padding-right: 15px;
+}
+
+.page-news .view-latest-news table {
+  margin-bottom: 50px;
+}
+
+.page-news .view-latest-news p {
+  line-height: 16px;
+}
+
+#block-views-tags-cloud-block .views-row {
+  display: inline-block;
+  margin: 0 10px 5px 0;
+  padding: 3px 10px 6px 20px;
+  float: left;
+}
+
+#block-views-tags-cloud-block .views-row a {
+  color: #666 !important;
+  font-size: 8pt;
+}
+
+@media only screen and (max-width: 563px) {
+  #block-views-latest-news-block tr > td, .page-news .view-latest-news tr > td {
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  #block-views-latest-news-block img, .page-news .view-latest-news img {
+    width: 100% !important;
+  }
+}
+
+.latest-news-tags tr {
+  border-bottom: 65px solid white !important;
+}
+
+.latest-news-tags td {
+  display: block;
+}
+
+.latest-news-tags .views-field-title, .latest-news-tags .views-field-field-image {
+  border-bottom: 25px solid white;
+}
+
+.latest-news-tags .views-field-title a {
+  font-size: 18px !important;
+  line-height: 27px !important;
+}
+
+.latest-news-tags img {
+  width: 100%;
+}
+
+.latest-news-tags .views-field-body {
+  line-height: 20px;
+}
+
+.latest-news-tags-over {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 900;
+  background-image: linear-gradient(top, #D1E990 0%, #AAD75B 100%);
+  background-image: -o-linear-gradient(top, #D1E990 0%, #AAD75B 100%);
+  background-image: -moz-linear-gradient(top, #D1E990 0%, #AAD75B 100%);
+  background-image: -webkit-linear-gradient(top, #D1E990 0%, #AAD75B 100%);
+  background-image: -ms-linear-gradient(top, #D1E990 0%, #AAD75B 100%);
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #D1E990), color-stop(1, #AAD75B) );
+}
+
+.latest-news-tags-over {
+  white-space:nowrap;
+}
+.latest-news-tags-over:before {
+  content: ""; /* Adding Extra Space Above Element */
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.latest-news-tags-over > * {
+  white-space:normal; /*reset the white-space to behave normally for all elements inside the centerV container */
+  text-align:left;
+}
+
+.overlay-content {
+  display:inline-block;
+  float:none;
+  vertical-align:middle;
+  white-space:normal;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay-content .overlay-text {
+  font: 13px 'rotissansserifbold', arial, helvetica, sans-serif;
+  color: #333333;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  margin: 0 !important;
+  margin-top: 10px !important;
+}
+
+.overlay-content .icon > div {
+  width: 35px;
+  height: 36px;
+  display: inline-block;
+  margin: 2px;
+}
+
+.overlay-content .link-icon > div {
+  background: url(../images/link-ico.png);
+}
+
+.overlay-content .gallery-icon > div {
+  background: url(../images/finder-ico.png);
+
+}

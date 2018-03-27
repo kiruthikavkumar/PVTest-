@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=3600
+Content-MD5: CVxyaI3n2Q5lJtwNiHjz9g==
+Content-Type: text/xml
+Date: Fri, 23 Mar 2018 00:04:59 GMT
+Etag: 0x8D58936D97F913B
+Last-Modified: Tue, 13 Mar 2018 23:05:01 GMT
+Server: ECAcc (syd/B3F4)
+X-Cache: HIT
+x-ms-blob-type: BlockBlob
+x-ms-lease-status: unlocked
+x-ms-request-id: 32bbb6b8-101e-0058-0330-c2e979000000
+x-ms-version: 2009-09-19
+Content-Length: 15845
+

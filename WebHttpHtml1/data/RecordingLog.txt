@@ -1,0 +1,655 @@
+[API Trapper      (3cd8:3e70)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (406c:3f40)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (406c:196c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (406c:196c)] Load Network Traffic Analyzers:
+[Network Analyzer (406c:196c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (406c:196c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (406c:196c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (406c:196c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (406c:196c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (406c:196c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (406c:196c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (406c:196c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (406c:3c2c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:196c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:4030)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:196c)] Request Connection: Remote Server @ 104.16.42.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (406c:4030)] Request Connection: Remote Server @ 104.16.42.94:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (406c:3c0c)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:3f04)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:3c0c)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3f04)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 273 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 3684 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 702 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 818 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/system/system.base.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 376 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/system/system.menus.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:196c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:4014)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c20)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 2375 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c: fa4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1174 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/system/system.messages.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/system/system.theme.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:196c)] Request Connection: Remote Server @ 104.16.42.94:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (406c:4014)] Request Connection: Remote Server @ 104.16.42.94:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (406c:3c20)] Request Connection: Remote Server @ 104.16.42.94:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (406c: fa4)] Request Connection: Remote Server @ 104.16.42.94:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 896 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1732 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/custom/carousel/carousel.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 392 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/comment/comment.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 373 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1297 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/custom/document_library/document_library.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 408 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 653 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:4388)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (406c:3c2c)] "GET /modules/field/theme/field.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:4388)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 964 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/node/node.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 367 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/search/search.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 371 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 742 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /modules/user/user.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 367 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 615 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 744 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/contrib/views/css/views.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 391 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/contrib/ckeditor/css/ckeditor.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 397 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1207 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:4220)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/contrib/ctools/css/ctools.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:4220)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 820 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/styles/theme.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 389 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 766 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/styles/page.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 388 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/styles/block.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 389 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/scripts/fancybox/source/jquery.fancybox.css?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 416 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 3387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 441 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 851 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2016 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1937 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /misc/jquery.once.js?v=1.2"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:41fc)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (406c:3c2c)] "GET /misc/drupal.js?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/custom/carousel/carousel.js?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 411 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:41fc)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1585 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2136 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1764 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 5434 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/contrib/google_analytics/googleanalytics.js?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Client -> Server @ : 427 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/contrib/piwik/piwik.js?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 406 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/scripts/theme.js?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 409 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/scripts/fancybox/source/jquery.fancybox.js?odvpw3"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 435 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 3313 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/logo.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 422 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 1031 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3e4c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1942 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 6845 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/About_Us.jpg"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 171 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 2298 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3e4c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 725 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/Working_With_Usv2.jpg"   
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Client -> Server @ : 428 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/Annual_Reports.jpg"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 425 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/custom/carousel/readmore.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 433 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/NZRB-Logo.jpg"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 420 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/TAB_Trackside_Blue.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Client -> Server @ : 429 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2694 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 6845 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 709 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 6845 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 13690 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/styles/medium/public/field/image/IMG_0568.JPG?itok=AvuOrewI"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 466 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 2694 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 8214 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4764 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 2694 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2694 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 8214 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 5432 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 3697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 1399 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 5476 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 5476 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 2694 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 8170 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/styles/medium/public/field/image/DEFAULT%20-%20USE%20THIS%20IF%20UNSURE%20-%20NZRB_on_white_cmyk.jpg?itok=lr7uk9Gn"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 521 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 1416 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1201 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 13646 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/NZRB1639_CEO_Roadshow_Invite_2017_Email_Image.jpg"   
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Client -> Server @ : 456 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 12155 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/styles/medium/public/field/image/Screenshot%202018-03-08%20at%2016.14.01.png?itok=rg7wN3K-"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 497 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 9417 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 12155 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 12155 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4419 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 12155 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 3697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:4014)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 2738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c64)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 3819 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:196c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 3697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:38ac)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 12687 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/fonts/rotis_sans_serif/rotis_sans_serif_bold_65.eot?"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 455 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:4014)] Request Connection: Remote Server @ 216.58.200.110:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 12687 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 3697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 5542 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 959 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 3697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c64)] Request Connection: Remote Server @ 103.254.157.14:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:38ac)] Request Connection: Remote Server @ 103.254.157.14:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (406c:3c78)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3934)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 7239 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:196c)] Request Connection: Remote Server @ 216.58.200.110:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 8458 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 14616 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 3697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 7926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 15135 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 14893 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3934)] Request Connection: Remote Server @ 157.240.8.23:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 4229 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c78)] Request Connection: Remote Server @ 157.240.8.23:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 3699 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 1710 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3d24)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (406c:3c2c)] "GET /misc/menu-leaf.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /misc/menu-expanded.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/images/subnav_sep.jpg"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 445 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /misc/menu-collapsed.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 420 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/custom/carousel/ls_prev@2x.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 445 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/modules/custom/carousel/ls_next@2x.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Client -> Server @ : 445 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 616 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 595 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1688 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 3511 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Server -> Client : 3536 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 596 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/images/arrow-more-orange.gif"   
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Client -> Server @ : 452 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/images/logo-footer_13.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3d24)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/images/twitter@2x.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Client -> Server @ : 445 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/images/facebook@2x.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Client -> Server @ : 446 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/all/themes/NZRB_Corp/images/bg-title.gif"   
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Client -> Server @ : 443 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /analytics.js"   
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Client -> Server @ : 314 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3cec)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Server -> Client : 7190 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Server -> Client : 1620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Server -> Client : 1700 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Server -> Client : 1588 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 1592 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Server -> Client : 13806 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3cf8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (406c:3cec)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /collect?v=1&_v=j66&a=892789403&t=pageview&_s=1&dl=https%3A%2F%2Fnzracingboard.co.nz%2F&ul=en-nz&de=utf-8&dt=Welcome%20to%20New%20Zealand%20Racing%20Board%20%7C%20New%20Zealand%20Racing%20Board&sd=24-bit&sr=1280x720&vp=768x369&je=1&fl=29.0%20r0&_u=IGBAgEQ~&jid=1647052735&gjid=1448683085&cid=1662528289.1521763473&tid=UA-4471892-2&_gid=158732387.1521763473&z=1580952037"   
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Client -> Server @ : 698 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /piwik.js"   
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Client -> Server @ : 311 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3cf8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3934)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c64)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Server -> Client : 9185 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /piwik.php?action_name=Welcome%20to%20New%20Zealand%20Racing%20Board%20%7C%20New%20Zealand%20Racing%20Board&idsite=319&rec=1&r=973079&h=13&m=4&s=33&url=https%3A%2F%2Fnzracingboard.co.nz%2F&_id=b0164ede4e3c4e6b&_idts=1521763473&_idvc=1&_idn=0&_refts=0&_viewts=1521763473&send_image=1&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1280x720&gt_ms=166"   
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3cfc)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3cfc)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3934)] Request Connection: Remote Server @ 74.125.204.156:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (406c:3d48)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3c64)] Request Connection: Remote Server @ 74.125.204.156:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (406c:3cf4)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3d48)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3cf4)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3d38)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3d38)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /en_US/sdk.js"   
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Client -> Server @ : 310 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /r/collect?t=dc&aip=1&_r=3&v=1&_v=j66&tid=UA-4471892-2&cid=1662528289.1521763473&jid=1647052735&gjid=1448683085&_gid=158732387.1521763473&_u=IGBAgEQ~&z=561724834"   
+[Network Analyzer (406c:3c2c)]   (Sid: 13) Client -> Server @ : 489 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 9500 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 16000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 16000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Server -> Client : 3156 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 13) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c6c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3934)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3c6c)] Request Connection: Remote Server @ 157.240.8.35:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (406c:3934)] Request Connection: Remote Server @ 157.240.8.35:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (406c:3c6c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3934)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:3da8)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3934)] Request Connection: Remote Server @ 157.240.8.23:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (406c:3c6c)] Request Connection: Remote Server @ 157.240.8.23:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (406c:3da8)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c: 4b8)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c: 4b8)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3d1c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3d1c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3ce8)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3ce8)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /impression.php/f17d4e74b077d75/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D"   
+[Network Analyzer (406c:3c2c)]   (Sid: 15) Client -> Server @ : 402 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42"   
+[Network Analyzer (406c:3c2c)]   (Sid: 17) Client -> Server @ : 360 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 17) Server -> Client : 9500 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 17) Server -> Client : 5269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3ba4)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3ba4)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid: 15) Server -> Client : 785 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:2298)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:4030)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:2298)] Request Connection: Remote Server @ 104.16.38.94:80   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (406c:3c2c)] "GET /wp-content/uploads/2014/07/FIFA-World-Cup-Earnings.png"   
+[Network Analyzer (406c:3c2c)]   (Sid: 19) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer (406c:4030)] Request Connection: Remote Server @ 104.16.38.94:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (406c:3c2c)]   (Sid: 19) Server -> Client : 341 bytes  (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /wp-content/uploads/2014/07/FIFA-World-Cup-Earnings.png"   
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:15f4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c: fa4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c: fa4)] Request Connection: Remote Server @ 199.96.57.6:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (406c:15f4)] Request Connection: Remote Server @ 199.96.57.6:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (406c:3d34)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:3d34)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /widgets.js"   
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Client -> Server @ : 308 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 2759 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 11036 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 10866 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 12000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:1604)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:1604)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /widgets/widget_iframe.f47a2e0b4471326b6fa0f163bda46011.html?origin=https%3A%2F%2Fnzracingboard.co.nz"   
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Client -> Server @ : 413 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 2759 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 4440 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /sites/default/files/Document%20Blank-01.ico"   
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Client -> Server @ : 483 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Server -> Client : 4067 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /v2.5/plugins/like.php?action=like&app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FMs1VZf1Vg1J.js%3Fversion%3D42%23cb%3Df157f8d65f449de%26domain%3Dnzracingboard.co.nz%26origin%3Dhttps%253A%252F%252Fnzracingboard.co.nz%252Ff1a8657a6524e1e%26relation%3Dparent.parent&container_width=0&href=https%3A%2F%2Fnzracingboard.co.nz%2F&layout=button_count&locale=en_US&sdk=joey&share=false&show_faces=true"   
+[Network Analyzer (406c:3c2c)]   (Sid: 15) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 15) Server -> Client : 12636 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 15) Server -> Client : 2603 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c6c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:4030)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:4030)] Request Connection: Remote Server @ 157.240.8.23:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (406c:3c6c)] Request Connection: Remote Server @ 157.240.8.23:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (406c:3ef4)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3ef4)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /rsrc.php/v3ijLc4/yz/l/en_US/ZXD9WV2Kqal.js"   
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 1500 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3ea8)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-ECDSA-AES128-SHA)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8669 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 1152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 8000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 5634 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /rsrc.php/v3/yn/r/lH1ibRl5GKq.png"   
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Client -> Server @ : 780 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3ea8)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Server -> Client : 775 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:3fc4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3cd8:3fc4)] Load Network Traffic Analyzers:
+[Network Analyzer (3cd8:3fc4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3cd8:3fc4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3cd8:3fc4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3cd8:3fc4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3cd8:3fc4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3cd8:3fc4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3cd8:3fc4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3cd8:3fc4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3cd8:38fc)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:3fc4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:3fc4)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3cd8:3fd0)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:3fd0)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (406c:15f4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c: fa4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c: fa4)] Request Connection: Remote Server @ 104.244.42.72:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (406c:15f4)] Request Connection: Remote Server @ 104.244.42.72:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (406c:3ecc)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:3ecc)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3cd8:42e8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:4334)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (406c:3c2c)] "GET /settings"   
+[Network Analyzer (406c:3c2c)]   (Sid: 25) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:38c0)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (406c:38c0)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (406c:3c2c)]   (Sid: 25) Server -> Client : 670 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 26) Client -> Server @ : 379 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "POST /i/jot"   
+[Network Analyzer (406c:3c2c)]   (Sid: 26) Client -> Server @ : 2529 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 26) Server -> Client : 691 bytes (SSL) (Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /jot.html"   
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Client -> Server @ : 326 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Server -> Client : 655 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:42e8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3cd8:4334)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (3cd8:38fc)] "GET /favicon.ico"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  1) Client -> Server @ : 228 bytes (SSL)(Service=HTTP)
+[Web Request      (3cd8:38fc)] "GET /favicon.ico"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  2) Client -> Server @ : 228 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  1) Server -> Client : 452 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  2) Server -> Client : 452 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (3cd8:404c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:404c)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3cd8:3fd0)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8: b7c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8: b7c)] Request Connection: Remote Server @ 104.214.108.30:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3cd8:3fd0)] Request Connection: Remote Server @ 104.214.108.30:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3cd8:24cc)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:24cc)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3cd8:2e78)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:2e78)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (3cd8:38fc)] "GET /ie11blocklist/1401746408/versionlist.xml"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  3) Client -> Server @ : 250 bytes (SSL)(Service=HTTP)
+[Web Request      (3cd8:38fc)] "GET /l1.dat?v=3&cv=9.11.16299.0&os=10.0.16299.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Client -> Server @ : 355 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  3) Server -> Client : 441 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  3) Server -> Client : 15845 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:3ab8)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:3ab8)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Server -> Client : 10638 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (406c:4030)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:4030)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (406c:35e8)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (406c:35e8)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (406c:3c2c)] "GET /ie11blocklist/1401746408/versionlist.xml"   
+[Network Analyzer (406c:3c2c)]   (Sid: 27) Client -> Server @ : 250 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 27) Server -> Client : 441 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 27) Server -> Client : 15845 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent betting [Web Request      (406c:3c2c)] "GET /collect?v=1&_v=j66&a=892789403&t=event&_s=2&dl=https%3A%2F%2Fnzracingboard.co.nz%2F&ul=en-nz&de=utf-8&dt=Welcome%20to%20New%20Zealand%20Racing%20Board%20%7C%20New%20Zealand%20Racing%20Board&sd=24-bit&sr=1280x720&vp=768x369&je=1&fl=29.0%20r0&ec=Outbound%20links&ea=Click&el=https%3A%2F%2Fwww.tab.co.nz%2Fsport&_u=KGBAgEQ~&jid=&gjid=&cid=1662528289.1521763473&tid=UA-4471892-2&_gid=158732387.1521763473&z=466561167"   
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Client -> Server @ : 742 bytes (SSL)(Service=HTTP)
+[Web Request      (406c:3c2c)] "GET /piwik.php?link=https%3A%2F%2Fwww.tab.co.nz%2Fsport&idsite=319&rec=1&r=776444&h=13&m=5&s=14&url=https%3A%2F%2Fnzracingboard.co.nz%2F&_id=b0164ede4e3c4e6b&_idts=1521763473&_idvc=1&_idn=0&_refts=0&_viewts=1521763473&send_image=1&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=1&java=1&gears=0&ag=0&cookie=1&res=1280x720&gt_ms=166"   
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Client -> Server @ : 645 bytes (SSL)(Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Server -> Client : 519 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:3c2c)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Network Analyzer (406c:15f4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c: fa4)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (406c:15f4)] Request Connection: Remote Server @ 104.16.60.48:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (406c: fa4)] Request Connection: Remote Server @ 104.16.60.48:443   (Service=)  (Sid= 29)  PROXIED!
+[Net An. Error    (406c:3eb4)] SSL_connect(ssl_id = 343244056 = 14757D18) Failed, ctx = 147582D0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (406c:3eb4)]   (Sid: 28) SSL handshake with remote server Failed!
+[Net An. Error    (406c:4108)] SSL_connect(ssl_id = 343239176 = 14756A08) Failed, ctx = 147582D0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (406c:4108)]   (Sid: 29) SSL handshake with remote server Failed!
+[Network Analyzer (406c:3c2c)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (3cd8:418c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:43d8)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:418c)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3cd8:43d8)] Request Connection: Remote Server @ 204.79.197.200:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3cd8:20f4)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:20f4)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (3cd8:38fc)] "GET /iedomainsuggestions/ie11/suggestions.en-NZ"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Client -> Server @ : 367 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:3c1c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:3c1c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 2143 bytes (SSL) (Service=HTTP)
+[Web Request      (3cd8:38fc)] "GET /ieflipahead/ie10/rules.xml?mkt=en-NZ"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Client -> Server @ : 361 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 13720 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:418c)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:418c)] Request Connection: Remote Server @ 104.113.201.24:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3cd8:43d8)] Address lookup for DESKTOP-62R894U = 192.168.1.126
+[Network Analyzer (3cd8:43d8)] Request Connection: Remote Server @ 104.113.201.24:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3cd8:2ef0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:2ef0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (3cd8:38fc)] "GET /fwlink/?LinkID=401135"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  8) Client -> Server @ : 289 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:4224)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3cd8:38fc)]   (Sid:  8) Server -> Client : 406 bytes (SSL) (Service=HTTP)
+[Web Request      (3cd8:38fc)] "GET /s/iess/instrument17.cer"   
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Client -> Server @ : 348 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:4224)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Server -> Client : 1876 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:38fc)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (3cd8:38fc)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (3cd8:38fc)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (3cd8:38fc)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3cd8:38fc)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (3cd8:38fc)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (3cd8:38fc)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (3cd8:38fc)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (406c:3c2c)]   (Sid:  7) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent betting 

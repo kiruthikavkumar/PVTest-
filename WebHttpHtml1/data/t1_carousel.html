@@ -1,0 +1,144 @@
+/*
+ * Copyright (c) New Zealand Racing Board 2015.  All rights reserved
+ *
+ * $URL$
+ * $LastChangedRevision$
+ * $LastChangedBy$
+ * $LastChangedDate$
+ *
+ * Author: David Jefferies
+ *
+ * Description: This is the javascript file used to control the carousel view on nzracingboard.co.nz.
+ */
+
+var carousel_timer; //Global Variable used to initiate the timer
+
+/*
+  Run a function after the DOM is ready
+*/
+jQuery(document).ready(function() {
+  /* 
+    Show the slide controls when the mouse is over the carousel
+    Also clear the timer so that it doesn't transition
+  */
+  jQuery('div#slide1_container').mouseenter(function() {
+    if (jQuery(window).width() > 790) {
+      jQuery('div#carousel-left').show();
+      jQuery('div#carousel-right').show();
+    }
+    clearInterval(carousel_timer);
+  });
+  
+  /*
+    Hide the controls when the mouse is leaves the carousel area
+    Also initiate the timer.
+  */
+  jQuery('div#slide1_container').mouseleave(function() {
+    jQuery('div#carousel-left').hide();
+    jQuery('div#carousel-right').hide();
+    clearInterval(carousel_timer);
+    carousel_timer = setInterval(function() { transition_next(); }, 4000);
+  });
+  
+  /*
+    Bind the click event to move to the previous carousel item
+  */
+  jQuery('div#carousel-left').unbind('click').click(function() {
+    transition_prev();
+  });
+  
+  /*
+    Bind the click event to move to the next carousel item
+  */
+  jQuery('div#carousel-right').unbind('click').click(function() {
+    transition_next();
+  });
+  
+  show_carousel_buttons();
+  
+  /*
+    Initiate the timer on first load
+  */
+  carousel_timer = setInterval(function() { transition_next(); }, 4000);
+});
+
+/*
+  Run a function after the DOM is loaded
+*/
+jQuery(window).load(function() {
+  windowResize();
+});
+
+/*
+  Function to transition to the previous carousel item
+*/
+function transition_prev() {
+  jQuery('#carousel-readmore img').hide();
+  var $last = jQuery('#carousel-list li:last');
+  $last.remove().css({ 'margin-left': '-1203.84px' });
+  jQuery('#carousel-list li:first').removeClass('active');
+  jQuery('#carousel-list li:first').before($last);
+  $last.animate({ 'margin-left': '0px' }, 1000);
+  jQuery('#carousel-list li:first').addClass('active');
+  show_carousel_buttons();
+}
+
+/*
+  Function to transition to the next carousel item
+*/
+function transition_next() {  
+  jQuery('#carousel-readmore img').hide();   
+  var $first = jQuery('#carousel-list li:first');
+  $first.animate({ 'margin-left': '-' + $first.width() + 'px' }, 1000, function() {
+    $first.removeClass('active');
+    $first.remove().css({ 'margin-left': '0px' });
+    jQuery('#carousel-list li:last').after($first);
+    jQuery('#carousel-list li:first').addClass('active');
+    show_carousel_buttons();
+  });
+}
+
+/*
+  Initiate the Carousel Read More button for the given slide
+*/
+function show_carousel_buttons() {
+  var t = jQuery('#carousel-list li.active img').attr('data-top');
+  var l = jQuery('#carousel-list li.active img').attr('data-left');
+  var u = jQuery('#carousel-list li.active img').attr('data-url');
+  if (!isNaN(t) && !isNaN(l) && t != '' && l != '' && u != '') {
+    console.log('show');
+    jQuery('#carousel-readmore img').css('top', t + '%');
+    jQuery('#carousel-readmore img').css('left', l + '%');
+    jQuery('#carousel-readmore').attr('href', u);
+    jQuery('#carousel-readmore img').show();
+  } else {
+    console.log('hide');
+    jQuery('#carousel-readmore img').hide();
+  }
+}
+
+/*
+  Run a function when the window is resized
+*/
+jQuery(window).resize(function() {
+  windowResize();
+});
+
+/*
+  Change the width of the different carousel objects.
+*/
+function windowResize() {
+  if (jQuery(window).width() < 1440) {
+    if (jQuery(window).width() >= 771) {
+      jQuery('#slide1_container, #carousel-list li, #carousel-list img').css('width', (jQuery(window).width() * 1) + 'px');
+      jQuery('#slide1_container').css('height', jQuery('#carousel-list img:first-child').height() + 'px');
+    } else {
+      jQuery('#slide1_container, #carousel-list li, #carousel-list img').css('width', '771px');
+      jQuery('#slide1_container').css('height', '257px');
+    }
+    if (jQuery('#carousel-list img:first-child').width() < 1426) {
+      jQuery('#carousel-readmore img').css('width', 107 * (jQuery('#carousel-list img:first-child').width() / 1426) );
+      jQuery('#carousel-readmore img').css('height', 38 * (jQuery('#carousel-list img:first-child').height() / 475) );
+    }
+  }
+}
